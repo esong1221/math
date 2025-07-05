@@ -52,15 +52,15 @@
 
 双曲函数和三角函数在某些程度上非常的相似，但是也有很多不同的地方，要注意区分，不要弄混。双曲函数是用指数函数定义的。
 
-Hyperbolic functions have several properties in common with trigonometric functions, so pay attention, do not confuse these two. Hyperbolic functions are defined by exponential functions. 
+Hyperbolic functions have several properties in common with trigonometric functions, so pay attention, do not confuse these two. Hyperbolic functions are defined by exponential functions.
 
 \begin{itemize}
-    \item $\sinh{x} \equiv \dfrac{e^x-e^{-x}}{2}$\\
-    \item $\cosh{x} \equiv \dfrac{e^x+e^{-x}}{2}$\\
-    \item $\tanh{x} \equiv \dfrac{\sinh{x}}{\cosh{x}} \equiv \dfrac{e^x-e^{-x}}{e^x+e^{-x}} \equiv \dfrac{e^{2x}-1}{e^{2x}+1}$\\
-    \item $\text{cosechx} \equiv \dfrac{1}{\sinh{x}} \equiv \dfrac{2}{e^x-e^{-x}}$\\
-    \item $\text{sechx} \equiv \dfrac{1}{\cosh{x}} \equiv \dfrac{2}{e^x+e^{-x}}$\\
-    \item $\coth{x} \equiv \dfrac{1}{\tanh{x}} \equiv \dfrac{e^{2x}+1}{e^{2x}-1}$\\
+  \item $\sinh{x} \equiv \dfrac{e^x-e^{-x}}{2}$\\
+  \item $\cosh{x} \equiv \dfrac{e^x+e^{-x}}{2}$\\
+  \item $\tanh{x} \equiv \dfrac{\sinh{x}}{\cosh{x}} \equiv \dfrac{e^x-e^{-x}}{e^x+e^{-x}} \equiv \dfrac{e^{2x}-1}{e^{2x}+1}$\\
+  \item $\text{cosechx} \equiv \dfrac{1}{\sinh{x}} \equiv \dfrac{2}{e^x-e^{-x}}$\\
+  \item $\text{sechx} \equiv \dfrac{1}{\cosh{x}} \equiv \dfrac{2}{e^x+e^{-x}}$\\
+  \item $\coth{x} \equiv \dfrac{1}{\tanh{x}} \equiv \dfrac{e^{2x}+1}{e^{2x}-1}$\\
 \end{itemize}
 
 \textbf{Examples:}
@@ -78,20 +78,20 @@ Use the definition of sinhx to find, to 2 decimal places, the value of x for whi
 \section{双曲函数的图像 Sketching Graphs of Hyperbolic Functions}
 
 \begin{figure}[htbp]
-    \centering
-    \begin{tabular}{cc}
-        \includegraphics[width=0.45\linewidth]{image/sinh.png} &
-        \includegraphics[width=0.45\linewidth]{image/cosh.png} \\
-        (a) $y = \sinh x$ & (b) $y = \cosh x$ \\
-        \includegraphics[width=0.45\linewidth]{image/tanh.png} &
-        \includegraphics[width=0.45\linewidth]{image/coth.png} \\
-        (c) $y = \tanh x$ & (d) $y = \coth x$ \\
-        \includegraphics[width=0.45\linewidth]{image/sech.png} &
-        \includegraphics[width=0.45\linewidth]{image/csch.png} \\
-        (e) $y = \text{sech}\,x$ & (f) $y = \text{csch}\,x$
-    \end{tabular}
-    \caption{Graphs of various hyperbolic functions}
-    \label{fig:hyperbolic_all}
+  \centering
+  \begin{tabular}{cc}
+  \includegraphics[width=0.45\linewidth]{image/sinh.png} &
+  \includegraphics[width=0.45\linewidth]{image/cosh.png} \\
+  (a) $y = \sinh x$ & (b) $y = \cosh x$ \\
+  \includegraphics[width=0.45\linewidth]{image/tanh.png} &
+  \includegraphics[width=0.45\linewidth]{image/coth.png} \\
+  (c) $y = \tanh x$ & (d) $y = \coth x$ \\
+  \includegraphics[width=0.45\linewidth]{image/sech.png} &
+  \includegraphics[width=0.45\linewidth]{image/csch.png} \\
+  (e) $y = \text{sech}\,x$ & (f) $y = \text{csch}\,x$
+  \end{tabular}
+  \caption{Graphs of various hyperbolic functions}
+  \label{fig:hyperbolic_all}
 \end{figure}
 
 \newpage
@@ -104,17 +104,17 @@ Use the definition of sinhx to find, to 2 decimal places, the value of x for whi
   \centering
   \caption{双曲函数及对应的反函数}
   \begin{tabular}
-    {p{0.4\textwidth}|p{0.6\textwidth}}
-    \toprule
-    Hyperbolic Function & Inverse Hyperbolic Function \\
-    \midrule
-    $y=sinhx$ & $y=arsinhx$ \\
-    $y=coshx, x\geq0$ & $y=arcoshx, x\geq1$ \\
-    $y=tanhx$ & $y=artanhx,|x|<1$ \\
-    $y=sechx, x\geq0$ & $y=arsechx,0<x\leq1$ \\
-    $y=cschx, x\ne0$ & $y=arcschx, x\ne0$ \\
-    $y=cothx, x\ne0$ & $y=arcothx, |x|>1$ \\
-    \bottomrule
+  {p{0.4\textwidth}|p{0.6\textwidth}}
+  \toprule
+  Hyperbolic Function & Inverse Hyperbolic Function \\
+  \midrule
+  $y=sinhx$ & $y=arsinhx$ \\
+  $y=coshx, x\geq0$ & $y=arcoshx, x\geq1$ \\
+  $y=tanhx$ & $y=artanhx,|x|<1$ \\
+  $y=sechx, x\geq0$ & $y=arsechx,0<x\leq1$ \\
+  $y=cschx, x\ne0$ & $y=arcschx, x\ne0$ \\
+  $y=cothx, x\ne0$ & $y=arcothx, |x|>1$ \\
+  \bottomrule
   \end{tabular}
 \end{table}
 
@@ -132,9 +132,9 @@ Show that $\mathrm{arcosh}\,x = \ln\left(x + \sqrt{x^2 - 1}\right),x\geq1$ (exam
 
 以下是常用反三角函数推导的结论，公式本里可查。除非题目要求推导，其他题目可以直接使用。
 \begin{itemize}
-    \item $arsinhx=ln(x+\sqrt{x^2+1})$ \\
-    \item $arcoshx=ln(x+\sqrt{x^2-1}),x\geq1$ \\
-    \item $artanhx=\dfrac{1}{2}ln(\dfrac{1+x}{1-x}),|x|<1$ \\
+  \item $arsinhx=ln(x+\sqrt{x^2+1})$ \\
+  \item $arcoshx=ln(x+\sqrt{x^2-1}),x\geq1$ \\
+  \item $artanhx=\dfrac{1}{2}ln(\dfrac{1+x}{1-x}),|x|<1$ \\
 \end{itemize}
 
 注意：题目中要求推导公式的，只会得到一条公式，不带"$\pm$"符号；题目中是方程求解的需要加"$\pm$"
@@ -143,20 +143,20 @@ Show that $\mathrm{arcosh}\,x = \ln\left(x + \sqrt{x^2 - 1}\right),x\geq1$ (exam
 \subsection{反双曲函数的图像}
 
 \begin{figure}[htbp]
-    \centering
-    \begin{tabular}{cc}
-        \includegraphics[width=0.4\linewidth]{image/arsinh.png} &
-        \includegraphics[width=0.4\linewidth]{image/arcosh.png} \\
-        (a) $y = arsinhx$ & (b) $y = arcosh x$ \\
-        \includegraphics[width=0.4\linewidth]{image/artanh.png} &
-        \includegraphics[width=0.4\linewidth]{image/arcoth.png} \\
-        (c) $y = artanh x$ & (d) $y = arcoth x$ \\
-        \includegraphics[width=0.4\linewidth]{image/arsech.png} &
-        \includegraphics[width=0.4\linewidth]{image/arcsch.png} \\
-        (e) $y = arsechx$ & (f) $y = arcschx$
-    \end{tabular}
-    \caption{Graphs of inverse hyperbolic functions}
-    \label{fig:hyperbolic_all}
+  \centering
+  \begin{tabular}{cc}
+  \includegraphics[width=0.4\linewidth]{image/arsinh.png} &
+  \includegraphics[width=0.4\linewidth]{image/arcosh.png} \\
+  (a) $y = arsinhx$ & (b) $y = arcosh x$ \\
+  \includegraphics[width=0.4\linewidth]{image/artanh.png} &
+  \includegraphics[width=0.4\linewidth]{image/arcoth.png} \\
+  (c) $y = artanh x$ & (d) $y = arcoth x$ \\
+  \includegraphics[width=0.4\linewidth]{image/arsech.png} &
+  \includegraphics[width=0.4\linewidth]{image/arcsch.png} \\
+  (e) $y = arsechx$ & (f) $y = arcschx$
+  \end{tabular}
+  \caption{Graphs of inverse hyperbolic functions}
+  \label{fig:hyperbolic_all}
 \end{figure}
 
 \newpage
@@ -170,22 +170,22 @@ $Osborn's Rule$告诉我们双曲函数的恒等变换只需用双曲函数替�
   \centering
   \caption{三角函数及对应双曲函数恒等变换}
   \begin{tabular}
-    {p{0.5\textwidth}|p{0.5\textwidth}}
-    \toprule
-    Trigonometric Function & Hyperbolic Function \\
-    \midrule
-    $cos^2A+sin^2A=1$ & $cosh^2A-sinh^2A=1$ \\
-    $1+tan^2A=sec^2A$ & $1-tanh^2A=sech^2A$ \\
-    $1+cot^2A=csc^2A$ & $1-coth^2A=-csch^2A$ \\
-    $sin(A\pm B)=sinAcosB\pm cosAsinB$ & $sinh(A\pm B)=sinhAcoshB\pm coshAsinhB$ \\
-    $sin(2A)=2sinAcosA$ & $sinh(2A)=2sinhAcoshA$ \\
-    $cos(A\pm B)=cosAcosB\mp sinAsinB$ & $cosh(A\pm B)=coshAcoshB\pm sinhAsinhB$ \\
-    $cos(2A)=cos^2A-sin^2A$ & $cosh(2A)=cosh^2A+sinh^2A$ \\
-    $cos(2A)=2cos^2A-1$ & $cosh(2A)=2cosh^2A-1$ \\
-    $cos(2A)=1-2sin^2A$ & $cosh(2A)=1+2sinh^2A$ \\
-    $tan(A\pm B)=\dfrac{tanA\pm tanB}{1\mp tanAtanB}$ & $tanh(A\pm B)=\dfrac{tanhA\pm tanhB}{1\pm tanhAtanhB}$ \\
-    $tan(2A)=\dfrac{2tanA}{1-tan^2A}$ & $tanh(2A)=\dfrac{2tanhA}{1+tanh^2A}$ \\
-    \bottomrule
+  {p{0.5\textwidth}|p{0.5\textwidth}}
+  \toprule
+  Trigonometric Function & Hyperbolic Function \\
+  \midrule
+  $cos^2A+sin^2A=1$ & $cosh^2A-sinh^2A=1$ \\
+  $1+tan^2A=sec^2A$ & $1-tanh^2A=sech^2A$ \\
+  $1+cot^2A=csc^2A$ & $1-coth^2A=-csch^2A$ \\
+  $sin(A\pm B)=sinAcosB\pm cosAsinB$ & $sinh(A\pm B)=sinhAcoshB\pm coshAsinhB$ \\
+  $sin(2A)=2sinAcosA$ & $sinh(2A)=2sinhAcoshA$ \\
+  $cos(A\pm B)=cosAcosB\mp sinAsinB$ & $cosh(A\pm B)=coshAcoshB\pm sinhAsinhB$ \\
+  $cos(2A)=cos^2A-sin^2A$ & $cosh(2A)=cosh^2A+sinh^2A$ \\
+  $cos(2A)=2cos^2A-1$ & $cosh(2A)=2cosh^2A-1$ \\
+  $cos(2A)=1-2sin^2A$ & $cosh(2A)=1+2sinh^2A$ \\
+  $tan(A\pm B)=\dfrac{tanA\pm tanB}{1\mp tanAtanB}$ & $tanh(A\pm B)=\dfrac{tanhA\pm tanhB}{1\pm tanhAtanhB}$ \\
+  $tan(2A)=\dfrac{2tanA}{1-tan^2A}$ & $tanh(2A)=\dfrac{2tanhA}{1+tanh^2A}$ \\
+  \bottomrule
   \end{tabular}
 \end{table}
 
@@ -200,13 +200,13 @@ Show that 6sinhx-2coshx=7 for real values of x. (example 17 page 12)
 \vspace{3cm}
 
 \begin{lstlisting}
-    *Solve $2\mathrm{cosh^2}\,x-5\mathrm{sinh}\,x=5$,giving your answers as natural logarithms. (example 18 page 12)
+  *Solve $2\mathrm{cosh^2}\,x-5\mathrm{sinh}\,x=5$,giving your answers as natural logarithms. (example 18 page 12)
 \end{lstlisting}
 
 \vspace{3cm}
 
 \begin{lstlisting}
-       *Solve $2\mathrm{cosh}\,2x-5\mathrm{cosh}\,x+4=0$,giving your answers as natural logarithms. (example 19 page 12) 
+  *Solve $2\mathrm{cosh}\,2x-5\mathrm{cosh}\,x+4=0$,giving your answers as natural logarithms. (example 19 page 12)
 \end{lstlisting}
 
 \newpage
@@ -216,39 +216,39 @@ Show that 6sinhx-2coshx=7 for real values of x. (example 17 page 12)
 
 三种曲线的笛卡尔方程表达、参数方程表达，以及焦点、准线、离心率等都可以在公式本中找到。大部分时间处理问题的方式是和之前学过的求导求切线法线、求交点以及笛卡尔和参数方程结合的方法解题。
 \begin{figure}[htbp!]
-    \centering
-    \includegraphics[width=0.8\linewidth]{image/conic.png}
-    \caption{Conic Sections}
-    \label{fig:Conic Sections}
+  \centering
+  \includegraphics[width=0.8\linewidth]{image/conic.png}
+  \caption{Conic Sections}
+  \label{fig:Conic Sections}
 \end{figure}
 
 \section{椭圆 Ellipse}
 \begin{itemize}
-    \item Standard Cartesian Equation: $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$, 其中$a$为长轴长度，$b$为短轴长度 \\
-    \item Standard Parametric Equation: $x=acost$,$y=bsint$,$0\leq t<2\pi$ \\
-    \item general point on Ellipse: $P(acost, bsint)$ \\
+  \item Standard Cartesian Equation: $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$, 其中$a$为长轴长度，$b$为短轴长度 \\
+  \item Standard Parametric Equation: $x=acost$,$y=bsint$,$0\leq t<2\pi$ \\
+  \item general point on Ellipse: $P(acost, bsint)$ \\
 \end{itemize}
 
 \begin{figure}[htbp!]
-    \centering
-    \includegraphics[width=0.4\linewidth]{image/ellipse.png}
-    \caption{Ellipse}
-    \label{fig:Ellipse}
+  \centering
+  \includegraphics[width=0.4\linewidth]{image/ellipse.png}
+  \caption{Ellipse}
+  \label{fig:Ellipse}
 \end{figure}
 
 \section{双曲线 Hyperbola}
 \begin{itemize}
-    \item Standard Cartesian Equation: $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ \\
-    \item Standard Parametric Equation: $x=acosht$,$y=bsinht$,$t\in \mathbb{R}$ \\
-    \item Standard Parametric Equation: $x=asec\theta$,$y=btan\theta$,$-\pi \leq \theta<\pi$,$\theta \neq \pm \dfrac{\pi}{2}$ \\
-    \item general point on Hyperbola: $P(acosht, bsinht)$ or $P(asec\theta ,btan\theta)$ \\
+  \item Standard Cartesian Equation: $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ \\
+  \item Standard Parametric Equation: $x=acosht$,$y=bsinht$,$t\in \mathbb{R}$ \\
+  \item Standard Parametric Equation: $x=asec\theta$,$y=btan\theta$,$-\pi \leq \theta<\pi$,$\theta \neq \pm \dfrac{\pi}{2}$ \\
+  \item general point on Hyperbola: $P(acosht, bsinht)$ or $P(asec\theta ,btan\theta)$ \\
 \end{itemize}
 
 \begin{figure}[htbp!]
-    \centering
-    \includegraphics[width=0.4\linewidth]{image/hyperbola.png}
-    \caption{Hyperbola}
-    \label{fig:Hyperbola}
+  \centering
+  \includegraphics[width=0.4\linewidth]{image/hyperbola.png}
+  \caption{Hyperbola}
+  \label{fig:Hyperbola}
 \end{figure}
 
 \section{离心率 Eccentricity}
@@ -259,19 +259,19 @@ Show that 6sinhx-2coshx=7 for real values of x. (example 17 page 12)
 
 可以通过离心率的大小来判断具体圆锥曲线的种类
 \begin{itemize}
-    \item 离心率$e$恒大于$0$ \\
-    \item $0<e<1$：$Ellipse$ \\
-    \item $e=1$：$Parabola$ \\
-    \item $e>1$：$Hyperbola$ \\
+  \item 离心率$e$恒大于$0$ \\
+  \item $0<e<1$：$Ellipse$ \\
+  \item $e=1$：$Parabola$ \\
+  \item $e>1$：$Hyperbola$ \\
 \end{itemize}
 
 \subsection{椭圆}
 
 对于一个标准椭圆$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$，且$a>b$：
 \begin{itemize}
-    \item $0<e<1$ and $b^2=a^2(1-e^2)$ \\
-    \item the foci(焦点) are at $(\pm ae,0)$ \\
-    \item the directrices（准线）are $x=\pm \dfrac{a}{e}$
+  \item $0<e<1$ and $b^2=a^2(1-e^2)$ \\
+  \item the foci(焦点) are at $(\pm ae,0)$ \\
+  \item the directrices（准线）are $x=\pm \dfrac{a}{e}$
 \end{itemize}
 
 \textbf{Example:}
@@ -285,9 +285,9 @@ Show that if P is any point on the ellipse then $PS+PS'=2a$. (example 7 page 25)
 
 对于一个标准双曲线$\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$，
 \begin{itemize}
-    \item $e>1$ and $b^2=a^2(e^2-1)$ \\
-    \item the foci(焦点) are at $(\pm ae,0)$ \\
-    \item the directrices（准线）are $x=\pm \dfrac{a}{e}$
+  \item $e>1$ and $b^2=a^2(e^2-1)$ \\
+  \item the foci(焦点) are at $(\pm ae,0)$ \\
+  \item the directrices（准线）are $x=\pm \dfrac{a}{e}$
 \end{itemize}
 
 \newpage
@@ -299,8 +299,8 @@ Show that if P is any point on the ellipse then $PS+PS'=2a$. (example 7 page 25)
 
 对于一个标准椭圆方程$\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$及曲线上任一点$P(acost,bsint)$
 \begin{itemize}
-    \item tangent to the ellipse: $bxcost+aysint=ab$ \\
-    \item normal to the ellipse: $axsint-bycost=(a^2-b^2)costsint$ \\
+  \item tangent to the ellipse: $bxcost+aysint=ab$ \\
+  \item normal to the ellipse: $axsint-bycost=(a^2-b^2)costsint$ \\
 \end{itemize}
 
 \textbf{Example:}
@@ -323,14 +323,14 @@ The ellipse $C$ has equation $\dfrac{x^2}{5^2}\,+\dfrac{y^2}{3^2}=1$. The line $
 
 对于一个标准双曲线方程$\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$及曲线上任一点$P(acosht,bsinht)$
 \begin{itemize}
-    \item tangent to the hyperbola: $bxcosht-aysinht=ab$ \\
-    \item normal to the hyperbola: $axsinht+bycosht=(a^2+b^2)coshtsinht$ \\
+  \item tangent to the hyperbola: $bxcosht-aysinht=ab$ \\
+  \item normal to the hyperbola: $axsinht+bycosht=(a^2+b^2)coshtsinht$ \\
 \end{itemize}
 
 对于一个标准双曲线方程$\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$及曲线上任一点$P(asec\theta,btan\theta)$
 \begin{itemize}
-    \item tangent to the hyperbola: $bxsec\theta -aytan\theta=ab$ \\
-    \item normal to the hyperbola: $by+axsin\theta=(a^2+b^2)tan\theta$ \\
+  \item tangent to the hyperbola: $bxsec\theta -aytan\theta=ab$ \\
+  \item normal to the hyperbola: $by+axsin\theta=(a^2+b^2)tan\theta$ \\
 \end{itemize}
 
 \textbf{Example:}
@@ -374,12 +374,12 @@ c. Show that the locus of $R$ is a parabola with equation $y^2=a(x-3a)$(example 
 
 \section{双曲函数求导公式 Differentiating Hyperbolic Functions}
 \begin{itemize}
-    \item $\dfrac{d}{dx} (sinhx)=coshx$ *\\
-    \item $\dfrac{d}{dx} (coshx)=sinhx$ *\\
-    \item $\dfrac{d}{dx} (tanhx)=sech^2x$ *\\
-    \item $\dfrac{d}{dx} (cothx)=-cosech^2x$ \\
-    \item $\dfrac{d}{dx} (cosechx)=-cothxcosechx$ \\
-    \item $\dfrac{d}{dx} (sechx)=-tanhxsechx$ \\
+  \item $\dfrac{d}{dx} (sinhx)=coshx$ *\\
+  \item $\dfrac{d}{dx} (coshx)=sinhx$ *\\
+  \item $\dfrac{d}{dx} (tanhx)=sech^2x$ *\\
+  \item $\dfrac{d}{dx} (cothx)=-cosech^2x$ \\
+  \item $\dfrac{d}{dx} (cosechx)=-cothxcosechx$ \\
+  \item $\dfrac{d}{dx} (sechx)=-tanhxsechx$ \\
 \end{itemize}
 
 如需证明，双曲函数通过定义式证明是最简单直白的方式
@@ -400,9 +400,9 @@ Differentiate $x^2cosh(4x)$ with respect to x. (example 3 page 48)
 \section{反双曲函数求导公式 Differentiating Inverse Hyperbolic Functions}
 
 \begin{itemize}
-    \item $\dfrac{d}{dx} (arsinhx)=\dfrac{1}{\sqrt{x^2+1}}$ *\\
-    \item $\dfrac{d}{dx} (arcoshx)=\dfrac{1}{\sqrt{x^2-1}}$ *\\
-    \item $\dfrac{d}{dx} (artanhx)=\dfrac{1}{1-x^2}$ *\\
+  \item $\dfrac{d}{dx} (arsinhx)=\dfrac{1}{\sqrt{x^2+1}}$ *\\
+  \item $\dfrac{d}{dx} (arcoshx)=\dfrac{1}{\sqrt{x^2-1}}$ *\\
+  \item $\dfrac{d}{dx} (artanhx)=\dfrac{1}{1-x^2}$ *\\
 \end{itemize}
 
 \textbf{Example:}
@@ -414,9 +414,9 @@ Given $y=(arcoshx)^2$, prove that $(x^2 -1)(\dfrac{dy}{dx})^2 =4y$. (example 6 p
 \section{反三角函数求导公式 Differentiating Inverse Trigonometric Functions}
 
 \begin{itemize}
-    \item $\dfrac{d}{dx}(arcsinx)=\dfrac{1}{\sqrt{1-x^2}}$ *\\
-    \item $\dfrac{d}{dx}(arccosx)=-\dfrac{1}{\sqrt{1-x^2}}$ *\\
-    \item $\dfrac{d}{dx}(arctanx)=\dfrac{1}{1+x^2}$ *\\
+  \item $\dfrac{d}{dx}(arcsinx)=\dfrac{1}{\sqrt{1-x^2}}$ *\\
+  \item $\dfrac{d}{dx}(arccosx)=-\dfrac{1}{\sqrt{1-x^2}}$ *\\
+  \item $\dfrac{d}{dx}(arctanx)=\dfrac{1}{1+x^2}$ *\\
 \end{itemize}
 
 此类公式证明方式与$P3$的类型题属于同类解题
@@ -435,23 +435,23 @@ Given $y=tan^{-1}(\dfrac{1-x}{1+x})$, find $\dfrac{dy}{dx}$. (example 9 page 51)
 利用上一章的求导结果反推积分公式要比死记硬背更轻松些
 
 \begin{itemize}
-    \item $\int$ $sinhx$ $dx$=$coshx$+$C$ *\\
-    \item $\int$ $coshx$ $dx$=$sinhx$+$C$ *\\
-    \item $\int$ $tanhx$ $dx$=$ln$($coshx$)+$C$ *\\
-    \item $\int$ $sech^2x$ $dx$=$tanhx$+$C$ \\
-    \item $\int$ $cosech^2x$ $dx$=-$cothx$+$C$ \\
-    \item $\int$ $sechxtanhx$ $dx$=-$sechx$+$C$ \\
-    \item $\int$ $cosechxcothx$ $dx$=-$cosechx$+$C$ \\
-    \item $\int$ $\dfrac{1}{\sqrt{1-x^2}}$ $dx$=$arcsinx$+$C$, $|x|<1$ \\
-    \item $\int$ $\dfrac{1}{\sqrt{x^2-1}}$ $dx$=$arcoshx$+$C$, $x>1$ \\
-    \item $\int$ $\dfrac{1}{\sqrt{1+x^2}}$ $dx$=$arsinhx$+$C$ \\
-    \item $\int$ $\dfrac{1}{1+x^2}$ $dx$=$arctanx$+$C$ *\\
-    \item $\int$ $\dfrac{1}{\sqrt{a^2-x^2}}$ $dx$=$arcsin{\dfrac{x}{a}}$,$|x|<a$ *\\ 
-    \item $\int$ $\dfrac{1}{a^2+x^2}$ $dx$=$\dfrac{1}{a}$ $arctan\dfrac{x}{a}$+$C$ *\\
-    \item $\int$ $\dfrac{1}{\sqrt{a^2+x^2}}$ $dx$=$arsinh\dfrac{x}{a}$+$C$ *\\
-    \item $\int$ $\dfrac{1}{\sqrt{x^2-a^2}}$ $dx$=$arcosh\dfrac{x}{a}$+$C$, $x>a$ *\\
-    \item $\int$ $\dfrac{1}{a^2-x^2}$ $dx$=$\dfrac{1}{2a}$ $ln|\dfrac{a+x}{a-x}|$+$C$, $|x|<a$ *\\
-    \item $\int$ $\dfrac{1}{x^2-a^2}$ $dx$=$\dfrac{1}{2a}$ $ln|\dfrac{x-a}{x+a}|$+$C$ *\\
+  \item $\int$ $sinhx$ $dx$=$coshx$+$C$ *\\
+  \item $\int$ $coshx$ $dx$=$sinhx$+$C$ *\\
+  \item $\int$ $tanhx$ $dx$=$ln$($coshx$)+$C$ *\\
+  \item $\int$ $sech^2x$ $dx$=$tanhx$+$C$ \\
+  \item $\int$ $cosech^2x$ $dx$=-$cothx$+$C$ \\
+  \item $\int$ $sechxtanhx$ $dx$=-$sechx$+$C$ \\
+  \item $\int$ $cosechxcothx$ $dx$=-$cosechx$+$C$ \\
+  \item $\int$ $\dfrac{1}{\sqrt{1-x^2}}$ $dx$=$arcsinx$+$C$, $|x|<1$ \\
+  \item $\int$ $\dfrac{1}{\sqrt{x^2-1}}$ $dx$=$arcoshx$+$C$, $x>1$ \\
+  \item $\int$ $\dfrac{1}{\sqrt{1+x^2}}$ $dx$=$arsinhx$+$C$ \\
+  \item $\int$ $\dfrac{1}{1+x^2}$ $dx$=$arctanx$+$C$ *\\
+  \item $\int$ $\dfrac{1}{\sqrt{a^2-x^2}}$ $dx$=$arcsin{\dfrac{x}{a}}$,$|x|<a$ *\\
+  \item $\int$ $\dfrac{1}{a^2+x^2}$ $dx$=$\dfrac{1}{a}$ $arctan\dfrac{x}{a}$+$C$ *\\
+  \item $\int$ $\dfrac{1}{\sqrt{a^2+x^2}}$ $dx$=$arsinh\dfrac{x}{a}$+$C$ *\\
+  \item $\int$ $\dfrac{1}{\sqrt{x^2-a^2}}$ $dx$=$arcosh\dfrac{x}{a}$+$C$, $x>a$ *\\
+  \item $\int$ $\dfrac{1}{a^2-x^2}$ $dx$=$\dfrac{1}{2a}$ $ln|\dfrac{a+x}{a-x}|$+$C$, $|x|<a$ *\\
+  \item $\int$ $\dfrac{1}{x^2-a^2}$ $dx$=$\dfrac{1}{2a}$ $ln|\dfrac{x-a}{x+a}|$+$C$ *\\
 \end{itemize}
 
 \newpage
@@ -570,10 +570,10 @@ $I_n$=$\int$ $tan^nx$ $dx$ where $n$ is a positive integer. By writing $tan^nx$ 
 \newpage
 \section{求曲线弧长 Finding the Length of an Arc of a Curve}
 \begin{figure}[htbp!]
-    \centering
-    \includegraphics[width=1\linewidth]{image/arclength.png}
-    \caption{Arc Length}
-    \label{fig:Arc Length}
+  \centering
+  \includegraphics[width=1\linewidth]{image/arclength.png}
+  \caption{Arc Length}
+  \label{fig:Arc Length}
 \end{figure}
 
 假设点$P(x,y)$是曲线$C$上任意一点，$C$的方程表达为$y=f(x)$,且曲线$C$上一定点到点$P$的弧长为$s$。设点$Q(x+\delta x,y+\delta y)$为距离点$P$旁边的一点，$PQ$的弧长为$\delta s$。
@@ -619,10 +619,10 @@ The curve $C$ has parametric equations $x=t+\dfrac{1}{t}$, $y=2lnt$, $t>0$. Find
 
 \section{求旋转体表面积 Finding the area of a surface of revolution}
 \begin{figure}[htbp!]
-    \centering
-    \includegraphics[width=1\linewidth]{image/surface.png}
-    \caption{Surface of revolution}
-    \label{fig:surface of revolution}
+  \centering
+  \includegraphics[width=1\linewidth]{image/surface.png}
+  \caption{Surface of revolution}
+  \label{fig:surface of revolution}
 \end{figure}
 
 将曲线$C$围绕$x$轴进行$360^\circ$旋转。$S$为曲线上任一点到固定点$P(x,y)$的弧经过旋转后所形成的曲面的表面积。设曲线上$P$点旁一点为$Q(x+\delta x,y+\delta y)$，那么弧$PQ$经过旋转后所形成表面积为$\delta S$，因为$PQ$距离足够近，旋转后的立体图形可近似看做截头体(圆锥切到顶端后形成的立体图形)。如果圆锥的底面半径为$r$，斜高为$l$，那么该圆锥的表面积表达式为$\pi rl$。那么截头体的面积表达为：
@@ -724,44 +724,44 @@ The curve with parametric equations $x=t-sint$,$y=1-cost$, from $t=0$ to $t=2\pi
 \section{向量的矢量积积(叉积) Vector Product}
 
 \begin{itemize}
-    \item 向量的标量积(点积)定义公式：
-    \[
-    \vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|cos\theta,\theta是向量\vec{a}和向量\vec{b}的夹角 
-    \]
-    \item 向量的矢量积(叉积)定义公式：
-    \[
-    \vec{a} \times \vec{b} = |\vec{a}||\vec{b}|sin\theta\hat{\vec{n}}，\hat{\vec{n}}是一条同时垂直于\vec{a}和\vec{b}的单位长度为1的向量(单位法向量)
-    \]
+  \item 向量的标量积(点积)定义公式：
+  \[
+  \vec{a} \cdot \vec{b} = |\vec{a}||\vec{b}|cos\theta,\theta是向量\vec{a}和向量\vec{b}的夹角
+  \]
+  \item 向量的矢量积(叉积)定义公式：
+  \[
+  \vec{a} \times \vec{b} = |\vec{a}||\vec{b}|sin\theta\hat{\vec{n}}，\hat{\vec{n}}是一条同时垂直于\vec{a}和\vec{b}的单位长度为1的向量(单位法向量)
+  \]
 \end{itemize}
 
 注意：点积得到的是标量数字，所以乘法顺序不重要。叉积得到的是一条向量，所以成都顺序很重要，因为顺序颠倒会得到方向相反的向量
 
 若$x$轴单位向量为$\vec{i}$, $y$轴单位向量为$\vec{j}$，$z$轴单位向量为$\vec{k}$,则：
 \begin{itemize}
-    \item 
-    \[
-    \vec{i} \times \vec{i}=0
-    \]
-    \item 
-    \[
-    \vec{j} \times \vec{j}=0
-    \]
-    \item 
-    \[
-    \vec{k} \times \vec{k}=0
-    \]
-    \item 
-    \[
-    \vec{i} \times \vec{j}=\vec{k}, and, \vec{j} \times \vec{i}=\vec{-k}
-    \]
-    \item 
-    \[
-    \vec{j} \times \vec{k}=\vec{i}, and, \vec{k} \times \vec{j}=\vec{-i}
-    \]
-    \item 
-    \[
-    \vec{k} \times \vec{i}=\vec{j}, and, \vec{i} \times \vec{k}=\vec{-j}
-    \]
+  \item
+  \[
+  \vec{i} \times \vec{i}=0
+  \]
+  \item
+  \[
+  \vec{j} \times \vec{j}=0
+  \]
+  \item
+  \[
+  \vec{k} \times \vec{k}=0
+  \]
+  \item
+  \[
+  \vec{i} \times \vec{j}=\vec{k}, and, \vec{j} \times \vec{i}=\vec{-k}
+  \]
+  \item
+  \[
+  \vec{j} \times \vec{k}=\vec{i}, and, \vec{k} \times \vec{j}=\vec{-i}
+  \]
+  \item
+  \[
+  \vec{k} \times \vec{i}=\vec{j}, and, \vec{i} \times \vec{k}=\vec{-j}
+  \]
 \end{itemize}
 
 和向量的点积一样，向量之间的叉积方式也有两种，一种是利用乘法法则拆括号，另一种是写成矩阵行列式的形式进行计算。绝大部分时间我们使用的都是矩阵行列式的计算方式，虽然$3\times 3$的矩阵行列式是后面的内容，在这里必须要提前掌握计算方式。
@@ -853,9 +853,9 @@ b_1 & b_2 & b_3
 \]
 这里：
 \begin{itemize}
-    \item 第一行是基向量
-    \item 第二行是向量$\vec{a}$的分量
-    \item 第三行是向量$\vec{b}$的分量
+  \item 第一行是基向量
+  \item 第二行是向量$\vec{a}$的分量
+  \item 第三行是向量$\vec{b}$的分量
 \end{itemize}
 沿第一行展开（按行列式展开式）：
 \[
@@ -929,8 +929,8 @@ Find the sine of the acute angle between the vectors $\vec{a}=2\vec{i}+\vec{j}+2
 \section{面积公式 Finding Areas}
 我们可以直接利用向量之间的叉积来求得三角形和平行四边形的面积
 \begin{itemize}
-    \item 三角形面积$=\dfrac{1}{2}|\vec{a} \times \vec{b}|$
-    \item 平行四边形面积$=|\vec{a} \times \vec{b}|$
+  \item 三角形面积$=\dfrac{1}{2}|\vec{a} \times \vec{b}|$
+  \item 平行四边形面积$=|\vec{a} \times \vec{b}|$
 \end{itemize}
 
 注意：公式中的$\vec{a}$和$\vec{b}$必须是从同一顶点出发的两条不同的向量。
@@ -949,27 +949,27 @@ Find the area of the parallelogram $ABCD$, where the position vectors of $A$,$B$
 \section{标量三重积 Scalar Triple Product}
 标量三重积在本单元中唯一的作用是用来找体积。
 \begin{itemize}
-    \item Scalar Triple Product的计算方式为:
-    \[
-    \vec{a} \cdot (\vec{b}\times \vec{c})
-    \]
-    \item 标量三重积具有循环性质:
-    \[
-    \vec{a} \cdot (\vec{b}\times \vec{c})=\vec{b} \cdot (\vec{c}\times \vec{a})=\vec{c} \cdot (\vec{a}\times \vec{b})
-    \]
-    \item 如果有重复的向量在其中，那么其结果为$0$：
-    \[
-    \vec{a} \cdot (\vec{a}\times \vec{p})=\vec{a} \cdot (\vec{p}\times \vec{a})=0
-    \]
-    \item 同求面积时一样，在利用标量三重积求体积的时候，$\vec{a}$,$\vec{b}$和$\vec{c}$必须是三条从同一顶点出发的不同向量
-    \item 平行六面体($Parallelepiped$)的体积为：
-    \[
-    |\vec{a} \cdot (\vec{b}\times \vec{c})|
-    \]
-    \item 四面体($Tetrahedron$)的体积为：
-    \[
-    \dfrac{1}{6} |\vec{a} \cdot (\vec{b}\times \vec{c})|
-    \]
+  \item Scalar Triple Product的计算方式为:
+  \[
+  \vec{a} \cdot (\vec{b}\times \vec{c})
+  \]
+  \item 标量三重积具有循环性质:
+  \[
+  \vec{a} \cdot (\vec{b}\times \vec{c})=\vec{b} \cdot (\vec{c}\times \vec{a})=\vec{c} \cdot (\vec{a}\times \vec{b})
+  \]
+  \item 如果有重复的向量在其中，那么其结果为$0$：
+  \[
+  \vec{a} \cdot (\vec{a}\times \vec{p})=\vec{a} \cdot (\vec{p}\times \vec{a})=0
+  \]
+  \item 同求面积时一样，在利用标量三重积求体积的时候，$\vec{a}$,$\vec{b}$和$\vec{c}$必须是三条从同一顶点出发的不同向量
+  \item 平行六面体($Parallelepiped$)的体积为：
+  \[
+  |\vec{a} \cdot (\vec{b}\times \vec{c})|
+  \]
+  \item 四面体($Tetrahedron$)的体积为：
+  \[
+  \dfrac{1}{6} |\vec{a} \cdot (\vec{b}\times \vec{c})|
+  \]
 \end{itemize}
 
 \section{直线的向量表达 Straight Lines}
@@ -979,10 +979,10 @@ Find the area of the parallelogram $ABCD$, where the position vectors of $A$,$B$
 \vec{r} \times \vec{b}= \vec{a} \times \vec{b}
 \]
 
-假设 $\vec{a}$ 是直线上一点 $A$ 的位置向量，  
-并且该直线平行于向量 $\vec{b}$。  
+假设 $\vec{a}$ 是直线上一点 $A$ 的位置向量，
+并且该直线平行于向量 $\vec{b}$。
 
-令 $\vec{r}$ 为直线上一般点 $R$ 的位置向量。  
+令 $\vec{r}$ 为直线上一般点 $R$ 的位置向量。
 
 那么
 \[
@@ -990,19 +990,19 @@ Find the area of the parallelogram $ABCD$, where the position vectors of $A$,$B$
 = \overrightarrow{OR} - \overrightarrow{OA}
 = \vec{r} - \vec{a}.
 \]
-  
+
 由于 $\overrightarrow{AR}$ 平行于 $\vec{b}$，所以
 \[
 \overrightarrow{AR} \times \vec{b} = \vec{0}.
 \]
-  
+
 因此
 \[
 (\vec{r} - \vec{a}) \times \vec{b} = \vec{0}.
 \]
-  
-这是通过 $A$ 且平行于向量 $\vec{b}$ 的直线的  
-另一种向量方程的表示形式。  
+
+这是通过 $A$ 且平行于向量 $\vec{b}$ 的直线的
+另一种向量方程的表示形式。
 
 它也可以写成
 \[
@@ -1010,10 +1010,10 @@ Find the area of the parallelogram $ABCD$, where the position vectors of $A$,$B$
 \]
 
 \begin{figure}[htbp!]
-    \centering
-    \includegraphics[width=0.4\linewidth]{image/vline.png}
-    \caption{ }
-    \label{fig:vline}
+  \centering
+  \includegraphics[width=0.4\linewidth]{image/vline.png}
+  \caption{ }
+  \label{fig:vline}
 \end{figure}
 
 \newpage
@@ -1052,18 +1052,18 @@ Show that the Cartesian equation of the line can be written as $\dfrac{x-1}{l}=\
 \section{平面的向量表达 Vector Planes}
 三维空间内平面的表达一共有三种：
 \begin{itemize}
-    \item 向量方程表达1：
-    \[
-    \vec{r} \cdot \vec{n}=\vec{a} \cdot \vec{n}=p
-    \]
-    \item 向量方程表达2：
-    \[
-    \vec{r}=\vec{a}+\lambda\vec{b}+\mu \vec{c}
-    \]
-    \item 笛卡尔方程表达：
-    \[
-    ax+by+cz+d=0
-    \]
+  \item 向量方程表达1：
+  \[
+  \vec{r} \cdot \vec{n}=\vec{a} \cdot \vec{n}=p
+  \]
+  \item 向量方程表达2：
+  \[
+  \vec{r}=\vec{a}+\lambda\vec{b}+\mu \vec{c}
+  \]
+  \item 笛卡尔方程表达：
+  \[
+  ax+by+cz+d=0
+  \]
 \end{itemize}
 
 对于$\vec{r} \cdot \vec{n}=\vec{a} \cdot \vec{n}=p$方程，其中$\vec{a}$是平面内一点的$Position\ Vector$，$\vec{n}$是与平面垂直的一条向量(法向量$Normal\ Vector$)，$p$是一个常数定值，而$\vec{r}$和我们之前学习之前的时候一样，是平面内任一点的$Position\ Vector$。
@@ -1103,9 +1103,9 @@ Find a Cartesian equation of the plane that passes through the points $A(1,0,-1)
 \section{空间几何问题 Solving Geometrical Problems}
 空间向量目前我们主要学习解决以下几类问题：
 \begin{itemize}
-    \item 相交问题：包括直线与直线的交点，直线与平面的交点，平面与平面的交线
-    \item 夹角问题：包括直线与直线的夹角，直线与平面的夹角，平面与平面的夹角
-    \item 距离问题：包括点到线的最短距离，平行线以及不平行线之间的最短距离，点到平面的最短距离，直线到平面的最短距离
+  \item 相交问题：包括直线与直线的交点，直线与平面的交点，平面与平面的交线
+  \item 夹角问题：包括直线与直线的夹角，直线与平面的夹角，平面与平面的夹角
+  \item 距离问题：包括点到线的最短距离，平行线以及不平行线之间的最短距离，点到平面的最短距离，直线到平面的最短距离
 \end{itemize}
 
 \textbf{Example:}
@@ -1173,7 +1173,7 @@ Find the shortest distance between the point A with coordinates $(1,2,-1)$ and t
   \item 给定一个矩阵 $\mathbf{A}$，其转置矩阵 $\mathbf{A}^\mathrm{T}(A\ transpose)$ 是通过交换 $\mathbf{A}$ 的行和列得到的。你取 $\mathbf{A}$ 的第一行作为 $\mathbf{A}^\mathrm{T}$ 的第一列，取 $\mathbf{A}$ 的第二行作为 $\mathbf{A}^\mathrm{T}$ 的第二列，依此类推。
 
   \[
-  \text{如果 } 
+  \text{如果 }
   \mathbf{A} =
   \begin{pmatrix}
   2 & 4 & -3 \\
@@ -1189,13 +1189,13 @@ Find the shortest distance between the point A with coordinates $(1,2,-1)$ and t
   -3 & 5 & 0
   \end{pmatrix}.
   \]
-  
+
   \item 维度为 $n \times m$ 的矩阵的转置是一个 $m \times n$ 的矩阵。
-  
+
   \item 一个方阵（行列相等的矩阵）的转置仍然是同样大小的方阵。例如，一个 $2 \times 2$ 的矩阵的转置，仍然是 $2 \times 2$ 的矩阵。
-  
+
   \item 如果 $\mathbf{A} = \mathbf{A}^\mathrm{T}$，则称 $\mathbf{A}$ 是\textbf{对称矩阵(symmetric)}。
-  
+
   \item 一个 $2 \times 2$ 的矩阵若具有如下形式
   \[
   \begin{pmatrix}
@@ -1204,7 +1204,7 @@ Find the shortest distance between the point A with coordinates $(1,2,-1)$ and t
   \end{pmatrix}
   \]
   交换行列后矩阵保持不变，即是对称矩阵。
-  
+
   \item 一个 $3 \times 3$ 的矩阵若具有如下形式
   \[
   \begin{pmatrix}
@@ -1214,10 +1214,10 @@ Find the shortest distance between the point A with coordinates $(1,2,-1)$ and t
   \end{pmatrix}
   \]
   交换行列后同样保持不变，即为对称矩阵。
-  
+
   \item $3 \times 3$ 的单位矩阵是
   \[
-  \mathbf{I} = 
+  \mathbf{I} =
   \begin{pmatrix}
   1 & 0 & 0 \\
   0 & 1 & 0 \\
@@ -1225,7 +1225,7 @@ Find the shortest distance between the point A with coordinates $(1,2,-1)$ and t
   \end{pmatrix}.
   \]
   当矩阵或向量与单位矩阵相乘时，矩阵或向量保持不变。
-  
+
   \item $3 \times 3$ 的零矩阵是
   \[
   \mathbf{0} =
@@ -1256,13 +1256,13 @@ c Verify that $(AB)^T=B^TA^T$ (example 4 page 140)
 \begin{itemize}
   \item 在 \textbf{Further Pure 1} 中，我们学过 $2 \times 2$ 矩阵 $\mathbf{A}$ 的行列式，记作 $\det(\mathbf{A})$ 或 $|\mathbf{A}|$，公式为
   \[
-  \det(\mathbf{A}) = 
+  \det(\mathbf{A}) =
   \begin{vmatrix}
   a & b \\ c & d
   \end{vmatrix}
   = ad - bc
   \]
-  
+
   \item 你可以通过将 $3 \times 3$ 的行列式化简为 $2 \times 2$ 的行列式来求解 $3 \times 3$ 矩阵的行列式，使用的公式为
   \[
   \begin{vmatrix}
@@ -1286,9 +1286,9 @@ c Verify that $(AB)^T=B^TA^T$ (example 4 page 140)
   d & e \\ g & h
   \end{vmatrix}
   \]
-  
+
   \item 注意在这个公式的中间部分，$b$ 前面是一个负号。
-  
+
   \item 与元素 $a$ 对应的 $2 \times 2$ 行列式，是通过划去 $a$ 所在的行与列得到的
   \[
   \left|
@@ -1303,7 +1303,7 @@ c Verify that $(AB)^T=B^TA^T$ (example 4 page 140)
   e & f \\ h & i
   \end{vmatrix}.
   \]
-  
+
   \item 与元素 $b$ 对应的 $2 \times 2$ 行列式，是通过划去 $b$ 所在的行与列得到的
   \[
   \left|
@@ -1318,7 +1318,7 @@ c Verify that $(AB)^T=B^TA^T$ (example 4 page 140)
   d & f \\ g & i
   \end{vmatrix}.
   \]
-  
+
   \item 与元素 $c$ 对应的 $2 \times 2$ 行列式，是通过划去 $c$ 所在的行与列得到的
   \[
   \left|
@@ -1333,14 +1333,14 @@ c Verify that $(AB)^T=B^TA^T$ (example 4 page 140)
   d & e \\ g & h
   \end{vmatrix}.
   \]
-  
+
   \item 与 $2 \times 2$ 矩阵相似，对于 $3 \times 3$ 的矩阵：
-  
+
   \begin{itemize}
-    \item 如果 $\det(\mathbf{A}) = 0$，那么 $\mathbf{A}$ 是\textbf{奇异矩阵 (singular matrix)}；
-    \item 如果 $\det(\mathbf{A}) \neq 0$，那么 $\mathbf{A}$ 是\textbf{非奇异矩阵 (non-singular matrix)}。
+  \item 如果 $\det(\mathbf{A}) = 0$，那么 $\mathbf{A}$ 是\textbf{奇异矩阵 (singular matrix)}；
+  \item 如果 $\det(\mathbf{A}) \neq 0$，那么 $\mathbf{A}$ 是\textbf{非奇异矩阵 (non-singular matrix)}。
   \end{itemize}
-  
+
 \end{itemize}
 
 \textbf{Example:}
@@ -1365,7 +1365,7 @@ a_{31} & a_{32} & a_{33}
 \begin{enumerate}
   \item \textbf{计算行列式 (Determinant)}：
   \[
-  \det(\mathbf{A}) = 
+  \det(\mathbf{A}) =
   a_{11}
   \begin{vmatrix}
   a_{22} & a_{23} \\ a_{32} & a_{33}
@@ -1380,8 +1380,8 @@ a_{31} & a_{32} & a_{33}
   \end{vmatrix}
   \]
   若 $\det(\mathbf{A}) = 0$，则 $\mathbf{A}$ 不可逆。
-  
-  \item \textbf{计算各元素的 minor (子式)}：  
+
+  \item \textbf{计算各元素的 minor (子式)}：
   对于每个元素 $a_{ij}$，其 minor $M_{ij}$ 是删除 $i$ 行和 $j$ 列后剩下的 $2 \times 2$ 行列式：
   \[
   M_{ij} =
@@ -1391,21 +1391,21 @@ a_{31} & a_{32} & a_{33}
   \]
   比如
   \[
-  M_{11} = 
+  M_{11} =
   \begin{vmatrix}
   a_{22} & a_{23} \\ a_{32} & a_{33}
   \end{vmatrix}
   \]
   其他类似。
-  
-  \item \textbf{计算各元素的余子式 (Cofactor)}：  
+
+  \item \textbf{计算各元素的余子式 (Cofactor)}：
   余子式定义为
   \[
   C_{ij} = (-1)^{i+j} \, M_{ij}
   \]
   也就是把 minor 乘以 $(-1)^{i+j}$。
-  
-  \item \textbf{转置余子式矩阵 (构造伴随矩阵 Adjoint)}：  
+
+  \item \textbf{转置余子式矩阵 (构造伴随矩阵 Adjoint)}：
   将余子式矩阵
   \[
   \mathbf{C} =
@@ -1417,7 +1417,7 @@ a_{31} & a_{32} & a_{33}
   \]
   进行转置
   \[
-  \mathbf{C}^\mathrm{T} = 
+  \mathbf{C}^\mathrm{T} =
   \begin{pmatrix}
   C_{11} & C_{21} & C_{31} \\
   C_{12} & C_{22} & C_{32} \\
@@ -1425,7 +1425,7 @@ a_{31} & a_{32} & a_{33}
   \end{pmatrix}
   \]
   即为伴随矩阵。
-  
+
   \item \textbf{求逆矩阵}：
   \[
   \mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})} \, \mathbf{C}^\mathrm{T}
@@ -1446,13 +1446,13 @@ a_{31} & a_{32} & a_{33}
 \subsection*{Step 1: 计算行列式}
 \[
 \begin{aligned}
-\det(\mathbf{A}) 
+\det(\mathbf{A})
 &= 2 \begin{vmatrix} -1 & 2 \\ 4 & 0 \end{vmatrix}
- - 1 \begin{vmatrix} 0 & 2 \\ 1 & 0 \end{vmatrix}
- + 3 \begin{vmatrix} 0 & -1 \\ 1 & 4 \end{vmatrix} \\
+  - 1 \begin{vmatrix} 0 & 2 \\ 1 & 0 \end{vmatrix}
+  + 3 \begin{vmatrix} 0 & -1 \\ 1 & 4 \end{vmatrix} \\
 &= 2( -1 \times 0 - 2 \times 4 )
- - 1( 0 \times 0 - 2 \times 1 )
- + 3( 0 \times 4 - (-1 \times 1) ) \\
+  - 1( 0 \times 0 - 2 \times 1 )
+  + 3( 0 \times 4 - (-1 \times 1) ) \\
 &= 2(0 - 8) - 1(0 - 2) + 3(0 + 1) \\
 &= 2(-8) + 2 + 3 \\
 &= -16 + 2 + 3 = -11
@@ -1493,9 +1493,9 @@ C_{33} &= (+1) M_{33} = -2
 \[
 \mathbf{C} =
 \begin{pmatrix}
- -8 &  2 &  1 \\
- 12 & -3 & -7 \\
- 5 & -4 & -2
+  -8 &  2 &  1 \\
+  12 & -3 & -7 \\
+  5 & -4 & -2
 \end{pmatrix}
 \]
 
@@ -1503,9 +1503,9 @@ C_{33} &= (+1) M_{33} = -2
 \[
 \mathbf{C}^{\mathrm{T}} =
 \begin{pmatrix}
- -8 & 12 & 5 \\
- 2 & -3 & -4 \\
- 1 & -7 & -2
+  -8 & 12 & 5 \\
+  2 & -3 & -4 \\
+  1 & -7 & -2
 \end{pmatrix}
 \]
 
@@ -1514,9 +1514,9 @@ C_{33} &= (+1) M_{33} = -2
 \mathbf{A}^{-1} = \frac{1}{\det(\mathbf{A})} \mathbf{C}^{\mathrm{T}}
 = \frac{1}{-11}
 \begin{pmatrix}
- -8 & 12 & 5 \\
- 2 & -3 & -4 \\
- 1 & -7 & -2
+  -8 & 12 & 5 \\
+  2 & -3 & -4 \\
+  1 & -7 & -2
 \end{pmatrix}
 \]
 即
@@ -1524,9 +1524,9 @@ C_{33} &= (+1) M_{33} = -2
 \boxed{
 \mathbf{A}^{-1} =
 \begin{pmatrix}
- \dfrac{8}{11} & -\dfrac{12}{11} & -\dfrac{5}{11} \\
- -\dfrac{2}{11} & \dfrac{3}{11} & \dfrac{4}{11} \\
- -\dfrac{1}{11} & \dfrac{7}{11} & \dfrac{2}{11}
+  \dfrac{8}{11} & -\dfrac{12}{11} & -\dfrac{5}{11} \\
+  -\dfrac{2}{11} & \dfrac{3}{11} & \dfrac{4}{11} \\
+  -\dfrac{1}{11} & \dfrac{7}{11} & \dfrac{2}{11}
 \end{pmatrix}
 }.
 \]
@@ -1541,12 +1541,12 @@ The matrix $A= \begin{pmatrix} 1 & 3 & 1 \\ 0 & 4 & 1 \\ 2 & -1 & 0 \end{pmatrix
 \section{线性变换 Using Matrices to Represent Linear Transformations in 3 Dimensions}
 本小节的基本知识点与$F1$中学过的没有太多的差异：
 \begin{itemize}
-    \item 矩阵可以代表线性变换
-    \item 矩阵$A$经过矩阵$M$所代表的线性变换后变成了$B$,记作
-    \[
-    MA=B
-    \]
-    \item 代表变换的矩阵写在左面，被变换的矩阵写在右面。
+  \item 矩阵可以代表线性变换
+  \item 矩阵$A$经过矩阵$M$所代表的线性变换后变成了$B$,记作
+  \[
+  MA=B
+  \]
+  \item 代表变换的矩阵写在左面，被变换的矩阵写在右面。
 \end{itemize}
 
 本小节的例题都比较典型，也是本章节最主要的考试内容,需要熟练掌握三维空间内直线和平面的各种方程形式以及他们互相之间的转换。
@@ -1563,7 +1563,7 @@ Find a vector equation of $l_2$. (example 16 page 156)
 \newpage
 \begin{lstlisting}
 The transformation $T:\mathcal{R}^3 \rightarrow \mathcal{R}^3$ is represented by the matrix $T$ where $T= \begin{pmatrix} 2 & 5 & -1 \\ -6 & 0 & 2 \\ 0 & 4 & 3 \end{pmatrix}$
-The plane $\Pi_1$ is transformed by $T$ to the plane $\Pi_2$. The plane $\Pi_1$ has vector equation $\vec{r}=\begin{pmatrix} 2\\ 1\\ -3 \end{pmatrix} + s\begin{pmatrix} 1\\ -2\\ 3 \end{pmatrix} +t\begin{pmatrix} -3\\ 1\\ -1 \end{pmatrix}$, where s and t are real parameters. 
+The plane $\Pi_1$ is transformed by $T$ to the plane $\Pi_2$. The plane $\Pi_1$ has vector equation $\vec{r}=\begin{pmatrix} 2\\ 1\\ -3 \end{pmatrix} + s\begin{pmatrix} 1\\ -2\\ 3 \end{pmatrix} +t\begin{pmatrix} -3\\ 1\\ -1 \end{pmatrix}$, where s and t are real parameters.
 Find a vector equation of $\Pi_2$ (example 17 page 157)
 \end{lstlisting}
 \vspace{6cm}
@@ -1612,7 +1612,7 @@ Find the values of the constants $a,b$ and $c$. (example 21 page 162)
 
 这个标量 $\lambda$ 被称为 $\mathbf{x}$ 的特征值（eigenvalue）。
 
-- 特征向量在经过矩阵代表的线性变换时，其长度可能会改变，但方向保持不变，称为不变向量（invariant）。  
+- 特征向量在经过矩阵代表的线性变换时，其长度可能会改变，但方向保持不变，称为不变向量（invariant）。
   特征值可理解为特征向量在变换下被放大（或缩小）的倍数。
 
 由定义，如果 $\vec{x}$ 是 $\mathbf{A}$ 的特征向量，则
@@ -1631,12 +1631,12 @@ Find the values of the constants $a,b$ and $c$. (example 21 page 162)
 
 求解特征方程就可以得到矩阵的特征值。
 
-- 如果矩阵是 $2 \times 2$，特征方程就是一个二次方程。  
+- 如果矩阵是 $2 \times 2$，特征方程就是一个二次方程。
 - 如果矩阵是 $3 \times 3$，特征方程就是一个三次方程。考试中经常会给提示，帮助你分解三次方程；如果没有提示，可以尝试使用因式定理（factor theorem）寻找其中一个根。
 
 \textbf{提醒：} 在变换下，特征向量 $\vec{x}$ 会映射为 $\lambda \vec{x}$。
 
-根据定义，特征向量本身必须非零，但矩阵的特征值可以为零。  
+根据定义，特征向量本身必须非零，但矩阵的特征值可以为零。
 虽然复数特征值在物理中很重要，但这里一般只讨论实数特征值。
 
 \textbf{归一化向量（normalised vector）} 指模长为 $1$ 的向量。
@@ -1705,57 +1705,57 @@ b. Find Cartesian equations of the two lines passing through the origin wich are
 \section{将对称矩阵化为对角形式 Reducing a symmetric matrix to diagonal form}
 
 \begin{itemize}
-    \item 如果一个方阵 $M$ 满足 $M M^{\mathrm{T}} = I$，那么称 $M$ 为\textbf{正交矩阵 $orthogonal\ matrix$}。
-    \item 如果 $M$ 是正交矩阵，则 $M^{-1} = M^{\mathrm{T}}$。
-    \item 如果两个特征向量 $x_1$ 和 $x_2$ 的数量积为 $x_1 \cdot x_2 = 0$，则称它们是\textbf{正交}的。你在 Pure 4 中学过，如果两个非零向量的数量积为零，它们互相垂直。这里虽然垂直(perpendicular)和正交(orthogonal)在意义上类似，但在描述特征向量时更习惯使用正交(orthogonal)。
-    \item 如果 $M$ 是由三个单位正交特征向量 $x_1, x_2, x_3$ 作为列向量构成的正交矩阵，那么
-    \[
-    x_1 \cdot x_2 = x_2 \cdot x_3 = x_3 \cdot x_1 = 0
-    \]
-    这三个向量彼此正交。
-    \item \textbf{对角矩阵}：是一个除了主对角线上元素以外，其他元素都为零的方阵。主对角线从矩阵的左上角到右下角：
-    \[
-    \begin{pmatrix}
-    \dots & 0 & 0 \\
-    0 & \dots & 0 \\
-    0 & 0 & \dots
-    \end{pmatrix}
-    \]
-    其中主对角线（leading diagonal）就是左上到右下的斜对角线。
+  \item 如果一个方阵 $M$ 满足 $M M^{\mathrm{T}} = I$，那么称 $M$ 为\textbf{正交矩阵 $orthogonal\ matrix$}。
+  \item 如果 $M$ 是正交矩阵，则 $M^{-1} = M^{\mathrm{T}}$。
+  \item 如果两个特征向量 $x_1$ 和 $x_2$ 的数量积为 $x_1 \cdot x_2 = 0$，则称它们是\textbf{正交}的。你在 Pure 4 中学过，如果两个非零向量的数量积为零，它们互相垂直。这里虽然垂直(perpendicular)和正交(orthogonal)在意义上类似，但在描述特征向量时更习惯使用正交(orthogonal)。
+  \item 如果 $M$ 是由三个单位正交特征向量 $x_1, x_2, x_3$ 作为列向量构成的正交矩阵，那么
+  \[
+  x_1 \cdot x_2 = x_2 \cdot x_3 = x_3 \cdot x_1 = 0
+  \]
+  这三个向量彼此正交。
+  \item \textbf{对角矩阵}：是一个除了主对角线上元素以外，其他元素都为零的方阵。主对角线从矩阵的左上角到右下角：
+  \[
+  \begin{pmatrix}
+  \dots & 0 & 0 \\
+  0 & \dots & 0 \\
+  0 & 0 & \dots
+  \end{pmatrix}
+  \]
+  其中主对角线（leading diagonal）就是左上到右下的斜对角线。
 
-    \item 通常的 $2 \times 2$ 对角矩阵写作：
-    \[
-    \begin{pmatrix}
-    a & 0 \\
-    0 & b
-    \end{pmatrix}
-    \]
-    \item 通常的 $3 \times 3$ 对角矩阵写作：
-    \[
-    \begin{pmatrix}
-    a & 0 & 0 \\
-    0 & b & 0 \\
-    0 & 0 & c
-    \end{pmatrix}
-    \]
-    主对角线上有些元素也可能为 $0$。
+  \item 通常的 $2 \times 2$ 对角矩阵写作：
+  \[
+  \begin{pmatrix}
+  a & 0 \\
+  0 & b
+  \end{pmatrix}
+  \]
+  \item 通常的 $3 \times 3$ 对角矩阵写作：
+  \[
+  \begin{pmatrix}
+  a & 0 & 0 \\
+  0 & b & 0 \\
+  0 & 0 & c
+  \end{pmatrix}
+  \]
+  主对角线上有些元素也可能为 $0$。
 \end{itemize}
 
 \textbf{将对称矩阵化为对角形式的步骤:}
 
 将对称矩阵 $A$ 化为对角矩阵 $D$ 的一般步骤为：
 \begin{enumerate}
-    \item 找出 $A$ 的单位化(normalised)特征向量
-    \item 把这些单位化特征向量组成一个矩阵 $P$
-    \item 写出 $P^{\mathrm{T}}$，即 $P$ 的转置
-    \item 通过
-    \[
-    P^{\mathrm{T}} A P = D
-    \]
-    得到对角矩阵 $D$
+  \item 找出 $A$ 的单位化(normalised)特征向量
+  \item 把这些单位化特征向量组成一个矩阵 $P$
+  \item 写出 $P^{\mathrm{T}}$，即 $P$ 的转置
+  \item 通过
+  \[
+  P^{\mathrm{T}} A P = D
+  \]
+  得到对角矩阵 $D$
 \end{enumerate}
 
-当你将对称矩阵 $A$ 化为对角矩阵 $D$ 时，$D$ 中的对角线元素就是 $A$ 的特征值。  
+当你将对称矩阵 $A$ 化为对角矩阵 $D$ 时，$D$ 中的对角线元素就是 $A$ 的特征值。
 
 对于任何对称矩阵 $A$，矩阵 $P$ 都是正交矩阵，因此
 \[
@@ -1768,7 +1768,7 @@ P^{\mathrm{T}} A P \quad \text{与} \quad P^{-1} A P
 是相同的表达式。
 
 矩阵对角化的过程看似复杂，实则做题的时候会有更简单的方案。
- 
+
 注：要证明一个矩阵 $M$ 是正交矩阵，你可以验证 $M M^{\mathrm{T}} = I$，或者验证 $M$ 由三个两两正交且单位化的向量组成。
 
 \newpage
