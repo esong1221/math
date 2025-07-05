@@ -111,7 +111,7 @@ Use the definition of sinhx to find, to 2 decimal places, the value of x for whi
     $y=sinhx$ & $y=arsinhx$ \\
     $y=coshx, x\geq0$ & $y=arcoshx, x\geq1$ \\
     $y=tanhx$ & $y=artanhx,|x|<1$ \\
-    $y=sechx, x\geq0$ & $y=arsechx,1<x\leq1$ \\
+    $y=sechx, x\geq0$ & $y=arsechx,0<x\leq1$ \\
     $y=cschx, x\ne0$ & $y=arcschx, x\ne0$ \\
     $y=cothx, x\ne0$ & $y=arcothx, |x|>1$ \\
     \bottomrule
@@ -191,7 +191,7 @@ $Osborn's Rule$告诉我们双曲函数的恒等变换只需用双曲函数替�
 
 如需证明双曲函数恒等变化，可通过双曲函数的定义式轻松解决。同样的方法也使用在解双曲函数方程中。
 
-/textbf{Example:}
+\textbf{Example:}
 
 \begin{lstlisting}
 Show that 6sinhx-2coshx=7 for real values of x. (example 17 page 12)
@@ -225,7 +225,7 @@ Show that 6sinhx-2coshx=7 for real values of x. (example 17 page 12)
 \section{椭圆 Ellipse}
 \begin{itemize}
     \item Standard Cartesian Equation: $\dfrac{x^2}{a^2}+\dfrac{y^2}{b^2}=1$, 其中$a$为长轴长度，$b$为短轴长度 \\
-    \item Standard Parametric Equaction: $x=acost$,$y=bsint$,$0\leq t<2\pi$ \\
+    \item Standard Parametric Equation: $x=acost$,$y=bsint$,$0\leq t<2\pi$ \\
     \item general point on Ellipse: $P(acost, bsint)$ \\
 \end{itemize}
 
@@ -239,9 +239,9 @@ Show that 6sinhx-2coshx=7 for real values of x. (example 17 page 12)
 \section{双曲线 Hyperbola}
 \begin{itemize}
     \item Standard Cartesian Equation: $\dfrac{x^2}{a^2}-\dfrac{y^2}{b^2}=1$ \\
-    \item Standard Parametric Equaction: $x=acosht$,$y=bsinht$,$t\in \mathbb{R}$ \\
-    \item Standard Parametric Equaction: $x=asec\theta$,$y=btan\theta$,$-\pi \leq \theta<\pi$,$\theta \neq \pm \dfrac{\pi}{2}$ \\
-    \item general point on Ellipse: $P(acosht, bsinht)$ or $P(asec\theta ,btan\theta)$ \\
+    \item Standard Parametric Equation: $x=acosht$,$y=bsinht$,$t\in \mathbb{R}$ \\
+    \item Standard Parametric Equation: $x=asec\theta$,$y=btan\theta$,$-\pi \leq \theta<\pi$,$\theta \neq \pm \dfrac{\pi}{2}$ \\
+    \item general point on Hyperbola: $P(acosht, bsinht)$ or $P(asec\theta ,btan\theta)$ \\
 \end{itemize}
 
 \begin{figure}[htbp!]
@@ -276,7 +276,7 @@ Show that 6sinhx-2coshx=7 for real values of x. (example 17 page 12)
 
 \textbf{Example:}
 \begin{lstlisting}[showspaces=false, showstringspaces=false]
-The ellispse with equation $\dfrac{x^2}{a^2}\,+\dfrac{y^2}{b^2}\,=1$ has foci at S(ae,0) and S'(-ae,0).
+The ellipse with equation $\dfrac{x^2}{a^2}\,+\dfrac{y^2}{b^2}\,=1$ has foci at S(ae,0) and S'(-ae,0).
 Show that if P is any point on the ellipse then $PS+PS'=2a$. (example 7 page 25)
 \end{lstlisting}
 \vspace{3cm}
@@ -589,7 +589,7 @@ $I_n$=$\int$ $tan^nx$ $dx$ where $n$ is a positive integer. By writing $tan^nx$ 
 随着点$Q$无限接近于点$P$，$\delta x\to 0$。
 所以
 \[
-\dfrac{\delta s}{\delta x}=\sqrt{1+(\dfrac{\delta y^2}{\delta x})}
+\dfrac{\delta s}{\delta x}=\sqrt{1+(\dfrac{\delta y}{\delta x})^2}
 \]
 以$x$作为变量对等式两侧同时积分：
 \[
@@ -601,7 +601,7 @@ s=\int_{y_A}^{y_B} \sqrt{1+(\dfrac{dx}{dy})^2}\,dy
 \]
 如果是参数方程,$x=f(t),y=g(t)$，同理可以求得：
 \[
-s=\int_{t_A}^{t_b} \sqrt{(\dfrac{\delta x}{\delta t})^2+(\dfrac{\delta y}{\delta t})^2}\,dt (*)
+s=\int_{t_A}^{t_B} \sqrt{(\dfrac{\delta x}{\delta t})^2+(\dfrac{\delta y}{\delta t})^2}\,dt (*)
 \]
 
 对于求弧长的绝大部分题目，求积分是唯一的考点，公式都在公式本可查。
